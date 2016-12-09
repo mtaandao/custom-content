@@ -1,0 +1,37 @@
+.mncf-form-label {
+    margin-bottom: 5px;
+}
+.mncf-form-description {
+    margin: 5px 0;
+    font-size: 1em;
+}
+img.ui-datepicker-trigger {
+    margin-left: 5px;
+}
+#poststuff .inside .mncf-meta-box-description p {
+    margin: 5px 0 15px 0;
+}
+#poststuff .inside .mncf-form-item:last-child {
+    margin-bottom: 0;
+}
+.mncf-fields-file-preview {
+/*    float: left;*/
+/*    margin-right: 10px;*/
+/*    margin: -30px 0 30px 0;*/
+}
+.mncf-fields-file-preview img {
+    margin-top: 10px;
+    height: 50px;
+    width: auto;
+    border: 1px solid #A0A0A0;
+}
+.mncf-form-textfield,
+.mncf-form-textarea {
+    width: 100%;
+}
+.mncf-fields-file-textfield {
+    width: 70%;
+}
+#side-info-column .mncf-fields-file-textfield {
+    width: 130px;
+}

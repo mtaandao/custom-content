@@ -1,0 +1,29 @@
+a[href="admin.php?page=dd_layouts"] .mn-menu-image img{
+	position: relative;
+	top: -2px;
+}
+
+a[href="admin.php?page=types_access"] .mn-menu-image img{
+	position: relative;
+	top: -3px;
+}
+
+a[href="admin.php?page=mncf-ctt"] .mn-menu-image img{
+	position: relative;
+	top: -2px;
+}
+
+a[href="admin.php?page=ModuleManager_Modules"] .mn-menu-image img{
+	position: relative;
+	top: -4px;
+}
+
+a[href="admin.php?page=CRED_Forms"] .mn-menu-image img{
+	position: relative;
+	top: -2px;
+}
+
+a[href="admin.php?page=views"] .mn-menu-image img{
+	position: relative;
+	top: -1px;
+}

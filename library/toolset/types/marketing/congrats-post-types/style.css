@@ -1,0 +1,149 @@
+/*------------------------------------------------
+*  mncf Notification
+*-----------------------------------------------*/
+.mncf-notif {
+	color: #454545;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+
+	padding: 10px 0 10px 0;
+	margin: 15px 0;
+	background: #ffffe0;
+	border: 1px solid #e6db55;
+
+    width: 98%;
+
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.mncf-notif-congrats {
+	font-size: 110%;
+}
+
+.mncf-notif p {
+	margin: 0px;
+	padding: 5px 15px;
+}
+
+.mncf-notif a {
+	color: #454545;
+	text-decoration: underline;
+}
+
+.mncf-notif a:hover {
+	color: #616161;
+	text-decoration: underline;
+}
+
+.mncf-notif .hr {
+	height: 1px;
+	width: 100%;
+	margin: 15px 0;
+	background: #f0e98d;
+}
+
+.mncf-notif small {
+	font-size: 10px;
+}
+
+.mncf-notif small a {
+	color: #d10000;
+}
+
+.mncf-notif span {
+	margin: 0 15px;
+}
+
+.mncf-notif ul {
+	margin: 5px 15px 0 15px;
+	padding: 0;
+	list-style: none;
+}
+
+.mncf-notif ul li {
+	padding: 2px 0 1px 10px;
+	background: url('images/mncf/mncf-list-style.png') 0 10px no-repeat;
+}
+
+.mncf-notif a.mncf-button {
+	margin: 0 15px;
+
+	color: #95958b;
+	font-size: 10px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.mncf-notif a.mncf-button:hover {
+	text-decoration: none;
+}
+
+.mncf-notif a.mncf-button.hide {
+	float: right;
+}
+
+.mncf-notif span.mncf-button-arrow {
+	width: 12px;
+	height: 13px;
+	margin: 3px 0 0 10px;
+	vertical-align: top;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.mncf-notif span.mncf-button-arrow.show {
+	background: url('images/mncf/mncf-arrows-show.png') right center no-repeat;
+}
+
+.mncf-notif span.mncf-button-arrow.hide {
+	background: url('images/mncf/mncf-arrows-hide.png') right center no-repeat;
+}
+
+.mncf-notif .mncf-notif-dropdown {
+	margin: 10px 0 0 0;
+	padding: 15px 0 15px 0;
+	border-top: 1px solid #f0e98d;
+}
+
+.mncf-notif .icon-toolset
+{
+    width: 100%;
+}
+
+.mncf-notif .icon-toolset:before
+{
+    color: #f05a28;
+    float: left;
+    font-size: 70px;
+    padding: 0 15px;
+}
+
+.mncf-notif .mncf-notif-header
+{
+    font-size: 30px;
+    color: #e25527;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.mncf-notif a.mncf-notif-more
+{
+    color: #0074a2;
+    float: right;
+    font-size: 21px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+.mncf-notif .mncf-notif-description
+{
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 0;
+}
+

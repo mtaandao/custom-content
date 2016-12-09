@@ -1,0 +1,157 @@
+.mncf-pr-edited, input.mncf-pr-edited {
+    background-color: #FDFCD4 !important;
+    /*    border-bottom: 2px solid #FFF600 !important;*/
+}
+#mncf-post-relationship table {
+    margin: 0;
+    clear: both;
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+}
+#mncf-post-relationship table td,
+#mncf-post-relationship table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+}
+#mncf-post-relationship table th {
+    white-space: nowrap;
+    background-color: #EBEBEB;
+}
+#mncf-post-relationship .mncf-pr-has-entries {
+    margin: 0;
+}
+
+#mncf-post-relationship .belongs p
+{
+    margin-bottom: 5px;
+}
+
+#mncf-post-relationship .belongs .mncf-form-item
+{
+    margin-bottom: .5em;
+}
+
+#mncf-post-relationship .belongs .form-item
+{
+    padding-top: .5em;
+}
+
+#mncf-post-relationship .belongs .select2-container {
+	vertical-align: middle;
+}
+
+#mncf-post-relationship .belongs .mncf-pr-parent-edit {
+	margin-left: 5px;
+	vertical-align: middle;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+#mncf-post-relationship .belongs .mncf-pr-parent-edit.mncf-saved {
+	box-shadow: 0 0 2px 3px #7ad03a !important;
+	border-color: #7ad03a;
+}
+
+#mncf-post-relationship .belongs .mncf-pr-parent-edit.mncf-deleted {
+	box-shadow: 0 0 3px red !important;
+	border-color: red;
+}
+
+.mncf-pr-sort-DESC,
+.mncf-pr-sort-ASC {
+    width: 7px;
+    height: 4px;
+    float: right;
+    margin-top: 6px;
+    background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-image: url(../images/sort.gif);
+}
+.mncf-pr-sort-ASC {
+    background-position: -7px 0;
+}
+#mncf-post-relationship .mncf-ajax-loading-small {
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 1px solid Gray;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    margin-top: 10px !important;
+}
+#mncf-post-relationship .mncf-pr-ajax-link,
+#mncf-post-relationship .mncf-pr-save-all-link {
+    margin: -15px 0 10px 10px;
+    float: right;
+}
+#mncf-post-relationship .mncf-pr-next {
+    margin-left: 5px;
+}
+#mncf-post-relationship .mncf-pr-has-title {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-right:250px;
+}
+#mncf-post-relationship .actions a {
+    /*line-height: 25px;*/
+/*    margin-top: 10px;*/
+}
+#mncf-post-relationship table .textarea {
+    width: 200px !important;
+    height: 80px !important;
+}
+#mncf-post-relationship table .textfield {
+    width: 100px !important;
+}
+#mncf-post-relationship .mncf-pr-belongs
+{
+    min-width: 300px;
+}
+#mncf-post-relationship table .form-item-radio {
+    white-space: nowrap;
+    margin: 0;
+}
+#mncf-post-relationship hr {
+    color: #DFDFDF;
+    background-color: #DFDFDF;
+    height: 1px;
+    border: 0px;
+    margin: 20px 0;
+}
+
+.types-child-categorydiv div.tabs-panel {
+	min-height: 42px;
+	max-height: 200px;
+	overflow: auto;
+	padding: 0 0.9em;
+	border-style: solid;
+	border-width: 1px;
+    border-color: #dfdfdf;
+    min-width: 120px;
+}
+
+.types-child-categorydiv ul.categorychecklist ul {
+	margin-left: 18px;
+}
+
+.types-child-categorydiv .tabs-panel {
+	border-width: 3px;
+	border-style: solid;
+}
+
+#mncf-post-relationship td label,
+#mncf-post-relationship td .description {
+    display: none;
+}
+#mncf-post-relationship td .form-item-checkboxes label
+,#mncf-post-relationship td .form-item-checkbox label
+,#mncf-post-relationship td .form-item-radio label
+,#mncf-post-relationship td .tabs-panel label
+{
+    display: inline;
+}
+

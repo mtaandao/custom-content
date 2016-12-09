@@ -1,0 +1,81 @@
+.mncf-group-area{
+	float:left;
+	width:100%;
+	clear:both;
+	margin-top:20px;	
+}
+.mncf-profile-field-line{
+	position:relative;
+	float:left;
+	width:100%;
+	margin-top:20px;
+}
+
+.mncf-repeater-profile-line-left{
+	width: 20%;
+	margin-right:10px;
+	float:left;	
+}
+.mncf-repeater-profile-line-right{
+	width: 70%;
+	float:left;	
+}
+.mncf-profile-line-left{
+	width: 20%;
+	margin-right:10px;
+	float:left;
+}
+.mncf-profile-line-right{
+	width: 70%;
+	float:left;
+}
+.mncf-profile-line-right img{
+	max-width:40%;
+	height:auto;
+}
+.mncf-fields-form .CodeMirror-wrap
+{
+	border:1px solid #ccc;
+}
+.mncf-admin-css-preview-style-edit{
+	background:#fff;
+	border:1px solid #ccc;
+	padding:10px;	
+}
+.mncf-update-preview-btn{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#mncf-update-preview-div{
+	border:1px solid #ccc;
+	background:#fff;
+	height:200px;
+	overflow:auto;
+	margin-bottom:10px;
+	padding:10px;
+}
+.widefat{
+	position:relative;
+	
+}
+#mncf-admin-styles-box td{
+	padding-bottom:10px;	
+}
+/* FIXES */
+.mncf-repeater-profile-line-right .mncf-profile-line-right {
+    width: 100%;
+}
+.mncf-repeater-profile-line-right .mncf-profile-line-left {
+    display: none;
+}
+
+#createuser .mncf-group-area {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#createuser .mncf-group-area .mncf-profile-field-line {
+    margin-top: 0px;
+}
+#createuser .mncf-profile-field-line .mncf-profile-field-line {
+    margin-bottom: 10px;
+}

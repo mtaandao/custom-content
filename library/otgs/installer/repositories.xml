@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+    <repository>
+        <id>mnml</id>
+        <apiurl>https://api.mnml.org/</apiurl>
+        <products>http://d2salfytceyqoe.cloudfront.net/mnml33-products.json</products>
+    </repository>
+    <repository>
+        <id>toolset</id>
+        <apiurl>https://api.mn-types.com/</apiurl>
+        <products>http://d7j863fr5jhrr.cloudfront.net/toolset33-products.json</products>
+    </repository>
+</repositories>

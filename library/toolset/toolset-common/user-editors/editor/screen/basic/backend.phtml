@@ -1,0 +1,81 @@
+<div class="js-code-editor code-editor content-editor" data-name="complete-output-editor">
+	<div class="code-editor-toolbar js-code-editor-toolbar">
+		<ul>
+			<?php
+			$menus_to_add = array(
+				'post',						// mnv-post shortcodes plus non-Types fields under their own section
+				'post-extended',			// generic shortcodes extended in the Basic section
+				'post-fields-placeholder',	// non-Types fields on demand
+				'user',						// basic user data
+				'body-view-templates',		// Content Templates
+				'post-view',				// Views listing posts
+				'taxonomy-view',			// all available Views listing terms
+				'user-view'					// all available Views listing users
+			);
+			do_action( 'mnv_views_fields_button', 'mnv_content', $menus_to_add );
+
+			// Needed so CRED displays a button instead of a fake anchor tag
+			if( mnv_ct_editor_is_cred_button_supported() ) {
+				define("CT_INLINE", "1");
+				do_action('mnv_cred_forms_button', 'mnv_content');
+			}
+
+			mnv_ct_editor_content_add_media_button( $this->medium->getId(), 'mnv_content' );
+			?>
+		</ul>
+	</div>
+	<!--suppress HtmlFormInputWithoutLabel -->
+        <textarea cols="30" rows="10" id="mnv_content" name="mnv_content"
+                  data-bind="textInput: postContentAccepted"></textarea>
+
+	<!--
+		CSS editor
+	-->
+	<div class="mnv-editor-metadata-toggle" data-bind="click: toggleCssEditor">
+            <span class="mnv-toggle-toggler-icon">
+                <i data-bind="attr: { class: isCssEditorExpanded() ? 'icon-caret-up fa fa-caret-up icon-large fa-lg' : 'icon-caret-down fa fa-caret-down icon-large fa-lg' }"></i>
+            </span>
+		<i class="icon-pushpin fa fa-thumb-tack" data-bind="widthToggleVisible: isCssPinVisible"></i>
+		<strong><?php _e( 'CSS editor', 'mnv-views' ); ?></strong>
+	</div>
+	<div class="mnv-ct-assets-inline-editor"
+	     data-bind="editorVisible: isCssEditorExpanded"
+	     data-target-editor="css">
+		<!--suppress HtmlFormInputWithoutLabel -->
+            <textarea name="name" id="mnv_template_extra_css"
+                      data-bind="textInput: templateCssAccepted"></textarea>
+	</div>
+
+	<!--
+		JS editor
+	-->
+	<div class="mnv-editor-metadata-toggle" data-bind="click: toggleJsEditor">
+            <span class="mnv-toggle-toggler-icon">
+                <i data-bind="attr: { class: isJsEditorExpanded() ? 'icon-caret-up fa fa-caret-up icon-large fa-lg' : 'icon-caret-down fa fa-caret-down icon-large fa-lg' }"></i>
+            </span>
+		<i class="icon-pushpin fa fa-thumb-tack" data-bind="widthToggleVisible: isJsPinVisible"></i>
+		<strong><?php _e( 'JS editor', 'mnv-views' ); ?></strong>
+	</div>
+	<div class="mnv-ct-assets-inline-editor"
+	     data-bind="editorVisible: isJsEditorExpanded"
+	     data-target-editor="js">
+		<!--suppress HtmlFormInputWithoutLabel -->
+            <textarea name="name" id="mnv_template_extra_js"
+                      data-bind="textInput: templateJsAccepted"></textarea>
+	</div>
+
+	<?php mnv_formatting_help_content_template(); ?>
+</div>
+
+<p class="update-button-wrap">
+        <span class="update-action-wrap">
+            <span class="js-mnv-message-container"></span>
+            <span class="spinner ajax-loader" data-bind="spinnerActive: isContentSectionUpdating"></span>
+        </span>
+	<button data-bind="
+                enable: isContentSectionUpdateNeeded,
+                attr: { class: isContentSectionUpdateNeeded() ? 'button-primary' : 'button-secondary' },
+                click: contentSectionUpdate">
+		<?php _e( 'Update', 'mnv-views' ); ?>
+	</button>
+</p>

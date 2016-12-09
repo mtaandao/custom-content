@@ -1,0 +1,59 @@
+/* 
+    Document   : repetitive
+    Created on : Dec 13, 2012, 1:00:23 PM
+    Author     : srdjan
+    Description:
+        Purpose of the stylesheet follows.
+    Since: Types 1.2
+*/
+
+.mncf-repetitive-drag {
+    background-image: url('../images/move.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 20px;
+    height: 22px;
+    float: left;
+    margin: 0 5px 0 0;
+    background-color: #F3F3F3;
+    border: 1px solid #BBBBBB;
+    cursor: move;
+    clear: both;
+}
+.mncf-repetitive-drag-and-drop {
+    clear: both;
+    margin-bottom: 15px;
+}
+.mncf-repetitive-drag-and-drop .form-item {
+    margin-bottom: 0;
+}
+.mncf-repetitive-control {
+    clear: both;
+    margin-top: 5px;
+}
+.mncf-repetitive-description {
+    font-style: italic;
+}
+.mncf-repetitive-description p {
+    margin-top: 0px;
+}
+.mncf-repetitive-response {
+/*    margin-top: 20px;*/
+}
+.mncf-repetitive-response .form-item {
+    margin-bottom: 40px !important;
+}
+.mncf-repetitive-response .mncf-form-item-radio {
+    margin-bottom: 0 !important;
+}
+.mncf-repetitive-buttons {
+    background: none !important;
+    border: none !important;
+    margin-bottom: 20px;
+    /*    float: right;
+        position: relative;
+        margin: 0 0 0 25px;*/
+}
+.mncf-repetitive-add {
+    
+}

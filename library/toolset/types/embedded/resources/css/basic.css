@@ -1,0 +1,1458 @@
+
+#icon-mncf-access {
+    background: url('../images/access-icon-32x32.png') no-repeat;
+}
+
+.mncf-ajax-loading-small {
+    background: url('../images/ajax-loader-small.gif') no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+/* FORMS */
+.mncf-form-fieldset {
+    background-color: #fff;
+    padding: 0 15px 15px 15px;
+    border: 1px solid #ccc;
+    border-color: #ccc;
+    margin: 15px 0 25px 0;
+}
+.mncf-form-fieldset fieldset {
+    margin-bottom: 0;
+}
+
+.mncf-fields h3 i.fa
+{
+    text-align: center;
+    width: 2em;
+}
+
+.mncf-fields-form fieldset
+{
+    width: auto;
+}
+
+#poststuff .mncf-fields .inside
+,#poststuff #types_labels .inside
+,#poststuff #types_labels .inside table
+,#custom_fields .inside .mncf-custom-field-group ul
+,#mncf-types-form-visibility-table
+,#mncf-types-form-visibility-table td
+,.widefat .mncf-fields-field-value-options .hndle
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body.admin .mncf-ui-dialog
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar-close
+,body.admin .mncf-ui-dialog .ui-dialog-content
+,body.admin .ui-corner-all
+{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#poststuff #types_labels .mncf-inside
+{
+    margin: 6px 0 0 0;
+    padding: 0 12px 12px;
+}
+
+#poststuff .mncf-box-loading .spinner
+{
+    visibility: visible;
+    float: left;
+}
+
+body.toolset_page_mncf-edit-usermeta #major-publishing-actions
+,body.toolset_page_mncf-edit #major-publishing-actions
+{
+    border-top: 0;
+}
+
+#custom_fields .inside .mncf-custom-field-group h4
+{
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+#custom_fields .inside .mncf-custom-field-group
+{
+    width: 200px;
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+#custom_fields .menu-item-handle
+{
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+}
+
+#custom_fields .mncf-custom-field-order
+{
+    border-top: 1px solid #eee;
+    padding-top: 4px;
+}
+
+#types_options .inside h3
+,#relationship .inside h3
+{
+    padding-left: 0;
+}
+
+.mncf-fields-field-value-options
+{
+    border-collapse: collapse;
+}
+.widefat .mncf-fields-field-value-options td
+{
+    vertical-align: middle;
+    padding: 4px;
+}
+
+/* Make input fields for Select/Radio options resize together with table cells. */
+.widefat .mncf-fields-field-value-options td > input[type=text] {
+    width: 100%;
+}
+
+.mncf-fields table ul
+,.mncf-fields dd
+{
+    margin: 0;
+}
+
+.mncf-fields dd
+{
+    padding-bottom: 1em;
+}
+
+.mncf-fields .mncf-border-top td .mncf-fields-field-value-options th
+,.mncf-fields .mncf-border-top td .mncf-fields-field-value-options td
+{
+    border: 0;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0 8px 4px 8px;
+}
+
+.mncf-fields .mncf-border-top td td
+{
+    border: 0;
+    padding: 2px;
+}
+
+.mncf-fields .mncf-border-top td
+{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 11px;
+}
+
+.mncf-fields-field-value-options i.fa
+{
+    font-size: 1.2em;
+}
+
+.mncf-fields-field-value-options
+{
+    border: 0;
+}
+
+/**
+ *  jQuery UI
+ */
+
+.mncf-child-post-fields-dialog .ui-dialog-title
+{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.mncf-field-remove
+,#mncf-conditional a
+{
+    color: #a00;
+}
+
+input.disabled, input:disabled, select.disabled, select:disabled, textarea.disabled, textarea:disabled {
+    background: rgba(0,0,0,0.05);
+}
+
+.mncf-field-remove
+,#mncf-conditional a
+{
+    text-decoration: none;
+}
+
+body .ui-dialog .mncf-ui-dialog-cancel
+{
+    position: absolute;
+    left: 16px;
+    margin-left: 0;
+}
+
+body.rtl .ui-dialog .mncf-ui-dialog-cancel
+{
+    position: relative;
+    left: auto;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+body.admin .mncf-ui-dialog
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar-close
+,body.admin .mncf-ui-dialog .ui-dialog-content
+{
+    border: 0;
+    background-image: none;
+    color: #444;
+}
+
+body.admin .mncf-ui-dialog .ui-dialog-titlebar
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar-close
+{
+    background-color: transparent;
+}
+
+.mncf-choose-field .mncf-form-button:hover i
+,body.admin .mncf-ui-dialog .ui-dialog-titlebar-close:hover
+{
+    color: #00a0d2;
+}
+
+body.admin .mncf-ui-dialog .ui-dialog-titlebar
+,body.admin .mncf-ui-dialog .ui-dialog-buttonpane
+{
+    background-color: #fcfcfc;
+}
+
+body.admin .mncf-ui-dialog .ui-dialog-titlebar
+{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+body.admin .mncf-ui-dialog .ui-dialog-buttonpane
+{
+    padding: 8px 16px;
+}
+
+.mncf-filter-dialog h3
+{
+    border-bottom: 1px solid #ddd;
+}
+
+.mncf-filter-dialog li
+{
+    width: 33%;
+    float: left;
+}
+
+.mncf-filter-dialog .inside .form-item-textfield
+{
+    margin-bottom: 1em;
+}
+
+.mncf-child-post-fields-dialog ul
+,.ui-dialog .mncf-form-item
+{
+    margin: 0;
+}
+
+#types_where .mncf-filter-container:last-of-type
+{
+    padding-bottom: 2em;
+}
+
+#types_where .mncf-filter-container h3
+{
+    padding-left: 0;
+}
+
+.mncf-form-fieldset legend {
+    font-weight: bold;
+}
+.mncf-form-fieldset .legend-collapsed {
+    padding-left: 15px;
+    background-image: url('../images/expand.png');
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    cursor: pointer;
+}
+.mncf-form-fieldset .legend-expanded {
+    padding-left: 15px;
+    background-image: url('../images/collapse.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    cursor: pointer;
+}
+
+.mncf-form-item
+{
+    margin-bottom: 25px;
+}
+.form-table .mncf-form-item
+{
+    margin-bottom: .25em;
+}
+.mncf-form-fieldset .mncf-form-item:first-child {
+    margin-top: 5px;
+}
+.mncf-form-item .mncf-form-item {
+    margin-bottom: 0;
+}
+.mncf-form-submit {
+    margin-top: 15px;
+}
+.mncf-form-description {
+    font-size: 0.85em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+td>.mncf-form-description-fieldset
+{
+    margin-top: 0;
+}
+
+.mncf-form-description-fieldset
+{
+    font-size: 1em;
+    font-style: normal;
+    margin: 10px 0;
+}
+.mncf-form-textarea {
+    width: 99%;
+}
+.mncf-form-description-textarea,
+.mncf-form-description-checkboxes,
+.mncf-form-description-radios {
+    font-size: 1em;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+.mncf-form-fieldset .mncf-form-label
+{
+    white-space: normal;
+}
+.mncf-form-item-textarea label {
+    display: block;
+}
+.mncf-form-error {
+    background-color: #ffffe0;
+    border: 1px solid #e6db55;
+    padding: 5px 10px;
+    width: auto;
+    margin: 10px 0;
+    display: block;
+}
+
+.toolset_page_mncf-edit-type .mncf-form-error {
+    width: 99%;
+    margin: 1px;
+    padding: 3px 5px;
+}
+.toolset_page_mncf-edit-type #mncf_warning_same_as_slug {
+    border-left-color: #ffba00;
+}
+
+input.mncf-form-error {
+    background-color: #F8F8F8;
+    border-color: Red !important;
+}
+.mncf-form-fields-align-right {
+    float: left;
+    width: 250px;
+    margin-top: 0;
+    margin-left: 450px;
+    /*    position: absolute;*/
+    position: fixed;
+    /*    THIS IS ALSO SET IN JS AFTER ADDING SCROLL */
+    clear: both;
+}
+.mncf-form-fields-align-right fieldset {
+    width: 250px;
+    background-color: #ffffff;
+}
+.mncf-form-fields-align-right a.mncf-fields-add-ajax-link {
+    margin: 3px 5px 2px 0;
+    float: left;
+}
+.mncf-fields-form .ui-draggable .mncf-form-fieldset .mncf-form-fieldset legend {
+    cursor: pointer;
+}
+.mncf-fields-form .ui-sortable-placeholder {
+    border: 1px dashed #CCCCCC;
+    width: auto;
+    visibility: visible !important;
+}
+.mncf-form-fields-delete,
+.mncf-fields-form-move-field {
+    float: left;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.mncf-fields-form-move-field {
+    cursor: move;
+}
+.mncf-fields-form .taxonomy-title {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* LIST */
+#mncf_groups_list th {
+    white-space: nowrap;
+}
+#mncf-table-group_name {
+    width: 250px;
+}
+#mncf-table-group_taxonomies {
+    width: 200px;
+}
+.mncf-form-fields-main
+{
+    width: 400px;
+}
+
+.mncf-shortcode {
+    margin-top: 5px;
+}
+.mncf-pointer {
+    cursor: pointer;
+}
+
+.mncf-custom-field-disabled label,
+.mncf-custom-field-disabled input[type="checkbox"] {
+    cursor: default;
+    color: #999;
+}
+
+.mncf-fields-form-radio-move-field {
+    cursor: move;
+}
+
+.mncf-where-to-include-inner {
+    display: table;
+    width: 100%;
+}
+
+.mncf-conditions-container,
+.mncf-edit-button-container {
+    display: table-cell;
+}
+
+.mncf-edit-button-container {
+    width: 5%;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+#mncf-fields-form-filters-association-form .mncf-form-title {
+    float: left;
+    padding-right: 15px;
+}
+
+#mncf-fields-form-filters-association-form input[type="radio"] {
+    margin-right: 0;
+}
+
+#mncf-fields-form-filters-association-form label {
+    padding-right: 15px;
+}
+
+/* TYPES FORM */
+#mncf-types-form-name-table,
+#mncf-types-form-labels-table,
+#mncf-types-form-taxonomies-table,
+#mncf-types-form-supports-table,
+.mncf-types-form-table {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+#mncf-types-form-name-table td,
+#mncf-types-form-visibility-table td,
+#mncf-types-form-labels-table td,
+#mncf-types-form-taxonomies-table td,
+#mncf-types-form-supports-table td,
+.mncf-types-form-table td {
+    border: none;
+}
+
+#mncf-types-form-name-table tbody tr td:first-child
+,.mncf-fields tbody td:first-child
+,#poststuff #types_labels .inside td:first-child
+{
+    text-align: right;
+}
+#mncf-types-form-name-table tbody tr:first-child td
+{
+    padding-top: 10px;
+}
+
+.mncf-where-to-include.widefat {
+    margin-bottom: 20px;
+}
+
+.mncf-fields table
+,.mncf-fields .mncf-fields-field-value-options
+{
+    border: 0;
+}
+
+#mncf-types-form-name-table tbody td:first-child
+,.mncf-fields tbody td:first-child
+{
+    min-width: 200px;
+    width: 20%;
+}
+
+.mncf-types-form-table td:first-child
+{
+    width: 20%;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+.mncf-fields .mncf-fields-field-value-options td:first-child
+{
+    min-width: 0;
+    width: auto;
+    text-align: inherit;
+}
+
+.widefat .mncf-fields-field-value-options .num input
+{
+    margin: 0;
+}
+
+.mncf-types-form #custom_fields .menu-item-handle
+{
+    padding: 10px 15px;
+}
+
+#mncf-types-form-name-table tbody tr:first-child td {
+    padding-top: 10px;
+}
+#mncf-types-form-name-table input[type=button]
+{
+    width: auto;
+}
+#mncf-types-form-name-table input[type="checkbox"] {
+    width: auto;
+}
+#mncf-types-form-name-table label {
+    font-weight: normal;
+}
+
+#mncf-types-form-table tbody tr td:first-child
+,#mncf-types-form-labels-table tbody tr td:first-child
+{
+    text-align: right;
+}
+
+#mncf-types-form-table tbody label
+,#mncf-types-form-labels-table tbody label
+{
+    font-weight: normal;
+}
+
+#mncf-types-form-table tbody td
+,#mncf-types-form-labels-table tbody td
+{
+    vertical-align: middle;
+}
+
+#mncf-types-form-table .mncf-form-description
+,#mncf-types-form-labels-table .mncf-form-description
+{
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+#mncf-types-form-table tbody tr:first-child td
+,#mncf-types-form-labels-table tbody tr:first-child td
+{
+    padding-top: 15px;
+}
+
+#mncf-types-form-rewrite-toggle {
+    margin: 0 0 20px 0;
+}
+/*CHECKBOXES*/
+.mncf-checkboxes-drag {
+    position: absolute;
+}
+.mncf-checkboxes-drag img {
+    cursor: pointer;
+}
+.mncf-fields-checkboxes-draggable legend {
+    background-position: 15px 2px !important;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-left: 30px !important;
+}
+.mncf-message {
+    padding: 0 0.6em;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 1em 0 1em 0;
+}
+.mncf-error {
+    background-color: #ffebe8;
+    border-color: #c00;
+    padding: 5px;
+}
+.mncf-admin-fields-help {
+    margin-bottom: 10px;
+}
+
+.mncf-help-link {
+    display:inline-block;
+    min-height:19px;
+    height:19px;
+    font-size:11px !important;
+    line-height:19px;
+    min-width:19px;
+    padding-left:20px;
+    padding-top:4px;
+    background:url('../../../../toolset-common/res/images/question.png') no-repeat 0 6px;
+    text-decoration:none !important;
+    position:relative;
+    z-index:100;
+    /*color:#FFFFFF !important;*/
+    float:right;
+    margin: -20px 45px 0 0;
+}
+
+.mncf-help-link:hover {
+    text-decoration:underline !important;
+    color:#d54e21 !important;
+    background-position:0 -19px;
+}
+
+.mncf-loading {
+    width: 20px;
+    height: 16px;
+    background: url('../images/mnspin.gif') no-repeat 2px 0;
+    display: inline-block;
+}
+
+.mncf-show {
+    /*display: block;*/
+}
+
+/* SETTINGS PAGE */
+.horlist {
+    margin-bottom: 12px;
+}
+.horlist li {
+    float: left;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+/*#mncf-ajax * {
+    width: auto;
+}*/
+#mncf-ajax #mncontent {
+    margin: 0px;
+}
+#mncf-ajax #mnbody-content{
+    padding: 20px;
+    width: 80%;
+}
+#mncf-ajax #mnfooter
+{
+    clear: both;
+}
+.mncf-editor-popup-advanced-link {
+    display: block;
+    padding: 10px 0;
+    outline: 0 !important;
+    border: 0 !important;
+}
+.mncf-editor-popup-advanced-link a:hover,
+.mncf-editor-popup-advanced-link a:active,
+.mncf-editor-popup-advanced-link a:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.modman
+{
+    margin-top: 20px;
+}
+.mncf-pagination-top {
+    margin-bottom: 10px;
+}
+
+.types-ajax #mnwrap {
+    margin-top: 20px;
+}
+.types-small-italic {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* temp */
+.types-help {
+    border: 1px solid;
+    border-radius: 4px 4px 4px 4px;
+    clear: both;
+    margin: 20px 0;
+    position: relative;
+    background: linear-gradient(to bottom, #ecfce8 0%, #dcffd4 100%) repeat scroll 0 0 transparent;
+    border-color: #bafca9;
+    min-height: 140px;
+}
+.types-help-content {
+    color: #4f4f4f;
+    min-height: 105px;
+    padding: 15px 160px 15px 15px;
+}
+.types-help-content a {
+    display: inline-block;
+    line-height: 18px;
+    text-decoration: underline;
+}
+.types-help-content p, .toolset-help-content ul, .toolset-help-content ol {
+    line-height: 1.6;
+}
+
+/**
+ * message after active plugin
+ */
+
+.toolset-message-after-activate
+,.toolset-message-after-activate h2
+{
+    color: #4d4d4d;
+}
+
+.toolset-message-after-activate
+{
+    background-color: #fffce1;
+    border: 2px solid #fffe38;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.toolset-message-after-activate span:before
+{
+    color:#f05a28;
+    font-size:70px;
+}
+
+.toolset-message-after-activate .button-dismiss:hover
+{
+    text-decoration: underline;
+}
+
+.toolset-message-after-activate .button-dismiss
+{
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.toolset-message-after-activate .button-primary
+{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.toolset-message-after-activate p.buttons
+{
+    margin-bottom: 0;
+}
+
+.toolset-message-after-activate p
+{
+    font-size: 16px;
+}
+
+.toolset-message-after-activate h2 em
+{
+    font-weight: 900;
+}
+
+.toolset-message-after-activate h2
+{
+    font-size: 40px;
+}
+
+.toolset-message-after-activate div
+{
+    border-right: 2px solid #f05a28;
+    max-width: 500px;
+    padding-right: 60px;
+    float: left;
+}
+
+.mn-core-ui .toolset-message-after-activate .button-primary
+,#poststuff .mncf-fields-add-new
+{
+    background-color: #f05a28;
+    border-color: #21b68e;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,175,148,0.5), 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(255,175,148,0.5), 0 1px 0 rgba(0,0,0,.15);
+}
+
+#poststuff .mncf-fields-add-new
+{
+    color: #fff;
+    font-weight: 700;
+    height: auto;
+    padding: 10px 15px 10px 10px;
+    margin-bottom: 1em;
+}
+
+#poststuff .mncf-fields-add-new .dashicons {
+    vertical-align: middle;
+}
+
+.mncf-second-submit-container {
+    text-align: right;
+    border-top: 1px solid #ddd;
+    padding-top: 17px;
+    margin-top: 25px;
+}
+
+.toolset-message-after-activate:after
+,ul.types:after
+{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.toolset-message-after-activate .logo
+{
+    background: transparent url(../images/types-toolset-component.png) no-repeat 73px 50%;
+    display: block;
+    height: 70px;
+    width: 158px;
+    float: left;
+    margin: 35px 0 0 20px;
+}
+
+.status-inactive:hover
+{
+    opacity: 1;
+}
+
+.status-inactive
+{
+    opacity: .7;
+/*transition: all .4s;*/
+}
+
+.mncf-table-column-name
+{
+    min-width: 250px;
+}
+
+#mncf_types_list
+,#mncf_tax_list
+{
+    margin: 1.5em 0;
+}
+
+/**
+ * code mirror RTL for CSS
+ */
+#mncf-admin-styles-box .CodeMirror-lines
+{
+    direction: ltr;
+}
+
+/**
+ * views marketing
+ */
+
+.types-marketing-views .more
+{
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+.types-marketing-views
+{
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+    padding: 0 10px;
+    margin: 4px 4px 0;
+}
+
+#mn-content-editor-tools .types-marketing-views .ont-color-orange
+,.mncf-howto-views .icon-views-logo
+{
+    color: #f05a28;
+}
+
+.mncf-info-box-with-icon div.mncf-icon {
+    width: 40px;
+    position:absolute;
+    top: 0;
+    left: 10px;
+}
+
+.mncf-info-box-with-icon div.mncf-info {
+    box-sizing: border-box;
+    padding-left: 46px;
+}
+
+.mncf-info-box-with-icon div.mncf-icon span {
+    color: #f05a28;
+}
+
+.mncf-info-box-with-icon:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mncf-no-glow:focus {
+    box-shadow: none;
+}
+
+.mncf-arrow-right:after,
+.mncf-arrow-down:after {
+    content: '\25B8';
+    font-size: 120%;
+    line-height: 100%;
+}
+
+.mncf-arrow-down:after {
+    content: '\25BE';
+}
+#mn-content-editor-tools .types-marketing-views .ont-color-orange
+{
+    font-size: 1.5em;
+}
+
+#poststuff .dashicons-no:before
+{
+    color: #f20;
+}
+
+#poststuff .dashicons-yes:before
+{
+    color: green;
+}
+
+#relationship .disabled label
+,#relationship .disabled .mncf-form-checkbox
+{
+    opacity: .7;
+    cursor: default;
+}
+
+#relationship .inside span
+{
+    visibility: hidden;
+}
+
+#relationship .inside .active span
+{
+    visibility: visible;
+}
+
+/* MNCF Tabs for Fields Group filters */
+body.admin .mncf-ui-dialog.mncf-filter-dialog .ui-dialog-titlebar {
+    border: 0;
+}
+
+.mncf-ui-dialog.mncf-filter-dialog .ui-dialog-titlebar {
+    height: auto;
+}
+
+.mncf-ui-dialog.mncf-filter-dialog {
+    overflow: hidden;
+}
+
+.mncf-tabs-menu {
+    width: 100%;
+    box-sizing: content-box;
+    position:relative;
+    clear: both;
+    top:0;
+    margin: 6px -16px 0;
+    padding: 0 36px 0 16px;
+    border-bottom: 1px solid #dfdfdf;
+    box-shadow: 0 10px 15px #fff;
+    z-index: 100;
+}
+
+.mncf-tabs-menu li {
+    width: auto;
+    display: inline-block;
+    float: none;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.mncf-tabs-menu .mncf-tabs-menu-current {
+    border-color: #fff;
+}
+
+.mncf-tabs-menu span {
+    color: #0073aa;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 8px 10px 9px;
+    margin: 0;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.mncf-tabs-menu > span:last-child {
+    border-right: 0;
+}
+
+.mncf-tabs-menu > span:active {
+    outline: none;
+}
+
+.mncf-tabs-menu .mncf-tabs-menu-current span,
+.mncf-tabs-menu span:hover {
+    color: #32373c;
+}
+
+.mncf-tabs-menu .mncf-tabs-menu-current span {
+    margin: -1px -1px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.mncf-tabs > div {
+    display: none;
+}
+
+.mncf-tabs div:first-child {
+    display: block;
+}
+
+.mncf-tabs div.hidden:first-child {
+    display: none;
+}
+
+.mncf-fields-group-conditions-description {
+    display: none;
+}
+
+.js-mncf-fields-group-conditions-condition {
+    font-weight: bold;
+}
+.js-mncf-fields-group-conditions-condition span {
+    font-weight: normal;
+}
+
+.mncf-filter-button-edit-container {
+    text-align:right;
+}
+
+#mncf-fields-form-filters-association-form {
+    padding-top: 10px;
+    margin: 15px 0 0;
+    border-top: 1px solid #eee;
+}
+
+button .ui-button-icon-primary
+,.types-ajax #screen-meta
+,.types-ajax #screen-meta-links
+,#ui-datepicker-div
+,#mncf-ajax #mnfooter
+,#mncf-conditional a span
+,#mncf-conditional thead
+,.mncf_custom_field_invalid_date
+,.mncf-form-fieldset .collapsed
+,.mncf-hide
+,.mncf-types-read-only #conditional-logic-button-open
+,.mncf-types-read-only #relationship a
+,.mncf-types-read-only #relationship p
+,.mncf-types-read-only .ui-draggable
+,.mncf-types-read-only .mncf-fields-checkboxes-draggable
+,.mncf-types-read-only .mncf-fields-form-move-field
+,.mncf-types-read-only .mncf-form-fields-delete
+,#mncf-types-form-visibility-table thead
+{
+    display: none;
+}
+
+.mncf-conditions-dialog .mncf-cd-relation
+{
+    margin-bottom: 1em;
+}
+
+.mncf-conditions-dialog .mncf-form-title-radios
+{
+    display: inline;
+}
+
+.mncf-types-read-only dl
+{
+      border: 1px solid #e5e5e5;
+      background-color: #fff;
+      padding: 10px;
+}
+
+#types-tools
+{
+    margin-top: 3em;
+}
+
+#cf-filter
+,#usermeta-filter
+{
+    margin-bottom: 3em;
+}
+
+#tab-panel-mncf dt
+{
+    font-weight: bold;
+}
+
+/**
+ * Types Dashboard
+ */
+
+#post-body-content .types .dashicons
+{
+    height: auto;
+    width: 100%;
+}
+
+#post-body-content .types span.dashicons:before
+{
+    font-size: 2em;
+    line-height: normal;
+}
+
+#post-body-content .types span:before
+{
+    font-size:3em;
+}
+
+#post-body-content .types span:before
+,#post-body-content .types .dashicons
+{
+    padding: 10px 0;
+}
+
+#post-body-content .types span
+{
+    display: block;
+}
+
+#post-body-content .types li a
+{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin: 0 20px 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.types li
+{
+    float: left;
+}
+
+/**
+ * #postbox-container-2 related classes
+ */
+
+#postbox-container-2 .mncf-list
+{
+    margin-bottom: 0;
+}
+
+#postbox-container-2 .mncf-list li
+{
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px 10px 0;
+}
+
+#postbox-container-2 .flat-in-postbox-container-2:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+#postbox-container-2 .flat-in-postbox-container-2 li
+{
+    float: left;
+    padding: 0 10px;
+}
+
+/**
+ * select icon
+ */
+.mncf-howto-views a
+{
+    text-decoration: none;
+}
+
+.mncf-howto-views span
+{
+    font-size: 3em;
+    padding-right: 5px;
+}
+
+.mncf-dashicons .selected
+,.tooltip
+{
+    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.50);
+    -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 0.50);
+    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.50);
+    border-color: #ddd;
+}
+
+.mncf-dashicons .spinner
+{
+    visibility: visible;
+    float: left;
+}
+
+.mncf-dashicons .dashicons-before:before
+{
+    padding-right: 10px;
+}
+
+.mncf-dashicons a
+{
+    display: block;
+    width: 155px;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.mncf-dashicons li
+{
+    float: left;
+    margin: 0 10px;
+    border: 1px solid transparent;
+}
+
+/**
+ * Where to include
+ */
+.mncf-filter-container hr
+{
+    margin-top: 20px;
+}
+.mncf-filter-container .clear .mncf-filter-button-edit
+{
+    margin-bottom: .5em;
+}
+
+/**
+ * add new field
+ */
+
+.mncf-choose-field .mncf-form-button i
+{
+    display: block;
+    font-size: 1.4em;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.mncf-choose-field .mncf-form-button:hover i
+,.mncf-tooltip
+{
+    color: #00a0d2;
+}
+
+body .mncf-choose-field button.mncf-form-button span
+{
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+.mncf-choose-field .form-item-textfield
+{
+    padding-bottom: 1em;
+}
+
+.mncf-choose-field button.mncf-form-button
+{
+    height: auto;
+    margin: 0 10px 10px 0;
+    padding: 0 5px;
+    text-align: center;
+    width: 140px;
+    line-height: 1.75em;
+}
+
+.mncf-choose-field button.mncf-switch-to-exists
+,.mncf-choose-field button.mncf-switch-to-new
+{
+    width: auto;
+    padding: 0 .5em;
+}
+
+#mncf-specific
+{
+    padding-left: 3em;
+}
+
+#postbox-container-2 .mncf-list
+{
+    margin-bottom: 0;
+}
+
+#mncf-specific li
+,#postbox-container-2 .mncf-list li
+,#relationship li
+,.mncf-list-of-items li
+{
+    display: inline-block;
+    width: 200px;
+    padding: 3px 10px;
+    margin: 0 10px 10px 0;
+    vertical-align: top;
+}
+
+/**
+ *  jQuery UI
+ */
+.toolset_page_mncf-edit-type .mncf-ui-dialog-cancel
+,.toolset_page_mncf-edit-type .mncf-ui-dialog-cancel:active
+,.toolset_page_mncf-edit-type .mncf-ui-dialog-cancel:focus
+,#mncf-types-form-visibility-table
+{
+    border: 0;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+
+body .mn-core-ui .button-primary
+{
+    text-shadow: none;
+}
+
+/* normalise text-decoration for links in dialogs  */
+body.admin .mncf-ui-dialog a {
+    text-decoration: none;
+}
+
+body.admin .mncf-ui-dialog a:hover {
+    text-decoration: underline;
+}
+
+/* button center */
+.mncf-block-center {
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/**
+ * tooltip
+ */
+.mncf-tooltip
+{
+    opacity: .9;
+}
+
+.tooltip
+{
+    margin: 8px;
+    padding: 8px;
+    background-color: #fff;
+    position: absolute;
+    z-index:  2;
+    max-width: 200px;
+}
+
+/* MN4.4 fixes */
+.mncf-ui-dialog #poststuff h3 { font-size: 14px; padding: 8px 12px; margin: 0; line-height: 1.4; }
+.mncf-ui-dialog .postbox .handlediv:before,
+.js-mncf-fields .postbox .handlediv:before {right:12px;font:400 20px/1 dashicons;speak:none;display:inline-block;padding:8px 10px;top:0;position:relative;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-decoration:none!important;content:'\f142'}
+.mncf-ui-dialog .postbox.closed .handlediv:before,
+.js-mncf-fields .postbox.closed .handlediv:before {content:'\f140';}
+
+
+/* Hide remove margin of empty p tags in admin message */
+div.message p:empty {
+    margin: 0;
+}
+
+
+/* Field Icons */
+.mncf-choose-field i.types-field-icon {
+    display: block;
+    margin: 3px auto 0 auto;
+    height: 15px;
+}
+
+.mncf-fields h3 i.types-field-icon {
+    width: 2em;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.types-field-icon {
+    display: inline-block;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.types-field-icon-checkboxes {
+    background-image: url( '../images/fields/checkboxes.png' );
+}
+
+.types-field-icon-select {
+    background-image: url( '../images/fields/select.png' );
+}
+
+input#slug+p.mncf-form-description {
+    margin-bottom: 0;
+}
+
+.toolset_page_mncf-edit-type #post-body #visibility:before,
+.toolset_page_mncf-edit-tax #post-body #visibility:before {
+    content: '\f173';
+}
+.ui-sortable-handle .mncf_required_data{
+    font-weight: normal;
+    font-size: 13px;
+}
+.ui-sortable-handle .description{
+    font-weight: normal;
+}
+
+/* todo move to common */
+.ui-datepicker {
+    z-index: 10000 !important;
+}
